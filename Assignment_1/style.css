@@ -1,5 +1,6 @@
 body{
-    background-color: gray;
+    background-color: #333333;
+    Font-family: Arial
 }
 header{
     color: orange;
@@ -42,3 +43,94 @@ input[type=text] {
     margin: 8px 0;
     box-sizing: border-box dashed;
   }
+  input[type="submit"]:hover{
+      background-color: orangered;
+  }
+  #head{
+      display: inline-block;
+      width: 400px;
+      height: 50px;
+      font-size: x-large
+     
+  }
+  #nav_bar ul{
+      margin:0;
+      float:right;
+      position: relative;
+      top: 0cm;
+      display: inline;
+      padding: 10px;
+      
+  }
+  #nav_bar ul li{
+      display: inline-block;
+      color: white;
+      padding: 10px;
+      margin: 10px;
+      border: 10px;
+      font-size: large;
+  }
+  #main_header ul li{
+      display: inline;
+  }
+  
+
+  }
+  a:link{
+      color:white;
+  }
+  a:visited{
+    color:white;
+}
+a:active{
+    color:white;
+}
+a:hover{
+    color: orange;
+}
+
+a{
+    text-decoration: none;
+}
+#main_header{
+    background-image: url("./images/bg_1.jpeg");
+    background-size: cover;
+    border: 0cm;
+    margin: 0cm;
+    padding: 0cm;
+}
+#Hi{
+    font-size: xx-large;
+    font-weight: bold;
+    color: whitesmoke;
+    margin: 50px auto;
+    position: relative;
+    left:50px;
+   
+}
+#hi ul li{
+    display: inline;
+} 
+ 
+ .fa {
+  padding: 10px;
+  font-size: large;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+   
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
